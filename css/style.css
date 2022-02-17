@@ -159,13 +159,29 @@ display: inline-block;
 }
 .ul-section2 a img{
     height: 117px;
-   margin-left: 45px;
+ 
     
 }
 .ul-section2 li{
 
     width: 191px;
     height: 186px;
+    
+}
+.ul-section2 li img{
+
+    transform: translate(40%,10%);
+    
+}
+.ul-section2 li:nth-child(5) img{
+
+    transform: translate(80%,10%);
+    
+}
+
+.ul-section2 li:hover{
+
+   box-shadow:  0px 8px 20px rgba(0, 0, 0, 0.253);
 }
 .ul-section2 a{
     
@@ -174,7 +190,7 @@ display: inline-block;
 .ul-section2 h3{
     text-align: center;
     color: #000000;
-   margin-top: 27px;
+  margin-top: 27px;
    text-transform: uppercase;
    font-family: 'Montserrat', sans-serif;
 }
